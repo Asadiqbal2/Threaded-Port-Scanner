@@ -1,6 +1,6 @@
 # Threaded-Port-Scanner
 
-The TCP Threader Scanner is a Python script that allows users to scan a range of TCP ports on a given IP address or hostname. The script utilizes multithreading to improve the scan speed and supports a wide range of port numbers. The script prints the open TCP ports in the given range and shows the time taken for the scan to complete.
+This script is a multi-threaded TCP and UDP port scanner that allows the user to scan a range of ports for a given IP address or hostname. The script prompts the user to enter the IP address or hostname to scan, as well as the range of ports to scan. It then creates multiple threads to scan different ranges of ports concurrently, making the scanning process faster.
 
 # Requirements:
 
@@ -12,11 +12,11 @@ threading module
 
 # Usage:
 
-To use the script, open the terminal or command prompt and navigate to the directory containing the script. Run the script using the command:
-
-python TCP_Threader_Scanner.py
-
-The script will prompt the user to enter an IP address or hostname and port range. Enter the required values and press Enter to start the scan. The script will display the open TCP ports in the given range and show the time taken for the scan to complete.
+Run the script using python TCP_UDP_Threader_Scanner.py command.
+Enter the IP address or hostname to scan.
+Enter the start and end port range to scan.
+The script will start scanning and print the open TCP and UDP ports.
+Once the scanning is finished, the script will print a message indicating that the scan is complete.
 
 # License:
 
