@@ -4,19 +4,23 @@ This script is a multi-threaded TCP and UDP port scanner that allows the user to
 
 # Requirements:
 
-Python 3.x
-socket module
-sys module
-datetime module
-threading module
+* Python 3.x
+* socket module
+* sys module
+* datetime module
+* threading module
 
 # Usage:
 
-Run the script using python TCP_UDP_Threader_Scanner.py command.
-Enter the IP address or hostname to scan.
-Enter the start and end port range to scan.
-The script will start scanning and print the open TCP and UDP ports.
-Once the scanning is finished, the script will print a message indicating that the scan is complete.
+1. Run the script using python TCP_UDP_Threader_Scanner.py command.
+
+2. Enter the IP address or hostname to scan
+
+3. Enter the start and end port range to scan.
+
+4. The script will start scanning and print the open TCP and UDP ports.
+
+5. Once the scanning is finished, the script will print a message indicating that the scan is complete.
 
 # License:
 
